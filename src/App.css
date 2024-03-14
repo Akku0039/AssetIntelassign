@@ -1,0 +1,36 @@
+.App{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  
+}
+.header {
+    display: flex;
+     margin-left: 200px; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Add some margin between header and editor */
+  }
+
+  .editor-container {
+    width: 100%; /* 90% of the viewport width */
+    max-width: 1000px;
+   height: 100px; /* Maximum width for larger screens */
+  }
+  .spacer {
+    flex-grow: 1; /* Takes up remaining space */
+  }
+  
+  .title {
+    text-align: center;
+    color: rgb(242, 237, 237);
+  }
+  
+  .button {
+    margin-left: 200px; /* Adjust as needed */
+  }
+  .{
+    background-color: black;
+  }
